@@ -1,0 +1,91 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang"en">
+<head>
+  <meta charset="utf-8">
+  <title>Tell me about you!</title>
+  <link rel="stylesheets" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Tell me about you!</h1>
+  <p id="description">I would love to know more about you. Please answer questions below.</p>
+   <form id="survey-form">
+     <fieldset>
+       <label id="name-label" for="name">Enter your name<input 
+       placeholder="Enter name here"
+       id="name" 
+       name="name" 
+       type="text" 
+       required>
+       </input></label>
+       <label id="email-label" for="email">Enter your email<input 
+       placeholder="Enter email here"
+       id="email"
+       name="email"
+       type="email" 
+       required></input></label>
+       <label id="number-label" for="age">Age<input
+       placeholder="Enter age here"
+        id="number" 
+        name="age" 
+        type="number" 
+        min="5" 
+        max="120" ></input></label></fieldset>
+       <fieldset>
+          <label for="describe">Which word best describes you? <select id="dropdown" name="describe">
+          <option value="">Select one</option>
+           <option value="1">Determined</option>
+            <option value="2">Logical</option>
+             <option value="3">Life-of-the-party</option>
+              <option value="4">Cautious</option>
+          </select>
+        </label>
+</fieldset>
+<fieldset>
+        <legend>An obese man dies of a heart attack at the top of the tallest slide at the park, just before he's about to go down. Do you try to carry him down the 5 stories of stairs in the respectful way, or push him down the slide in the convenient way?</legend>
+        <label for="convenient">Convenient way<input
+        value="1" id="convenient" type="radio" name="morals">
+        <label for="respectful">Respectful way<input
+        value="2" id="respectful" type="radio" name="morals" class="inline"/></label>
+      </fieldset>
+      <fieldset>
+          <label for="freetime">What is your ideal night out? <select id="dropdown" name="freetime">
+          <option value="">Select one</option>
+           <option value="1">Expensive dinner and movie</option>
+            <option value="2">Nightclub/Party</option>
+             <option value="3">Stay in w/ Board games</option>
+              <option value="4">Peaceful walk</option>
+          </select>
+        </label>
+</fieldset>
+<fieldset>
+  <legend>What would you like to do from this bucket list?</legend>
+    <input value="Parachuting" type="checkbox" id="Parachuting" name="bucketlist"><label for="Parachuting">Parachuting</label>
+     <input value="married" type="checkbox" id="married" name="bucketlist"><label for="married">Get married</label>
+      <input value="language" type="checkbox" id="language" name="bucketlist"><label for="language">Learn a new language</label>
+       <input value="spa" type="checkbox" id="spa" name="bucketlist"><label for="spa">Treat yourself to a spa day</label>
+        <input value="book" type="checkbox" id="book" name="bucketlist"><label for="book">Write a book</label>
+         <input value="mentor" type="checkbox" id="mentor" name="bucketlist"><label for="mentor">Become a mentor</label>
+          <input value="tattoo" type="checkbox" id="tattoo" name="bucketlist"><label for="tattoo">Get a tattoo</label>
+           <input value="overcome" type="checkbox" id="overcome" name="bucketlist"><label for="overcome">Overcome a Phobia/Fear</label>
+           <input value="hair" type="checkbox" id="hair" name="bucketlist"><label for="hair">Dye your hair</label>
+           <input value="sport" type="checkbox" id="sport" name="bucketlist"><label for="sport">Try a new sport</label>
+</fieldset>
+<fieldset>
+<label for="bio"> What else should I know about you?
+          <textarea id="bio" name="bio" rows="10" cols="50" placeholder="A personal goal I would like to achieve is..."></textarea>
+        </label></fieldset>
+        <input id="submit" type="submit" value="submit"
+  </form>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
